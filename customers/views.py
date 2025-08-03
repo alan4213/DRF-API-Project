@@ -120,7 +120,8 @@ from rest_framework import viewsets
 from .models import Customer
 from .serializers import CustomerSerializer
 from rest_framework.authtoken.views import ObtainAuthToken
-from rest_framework.decorators import api_view
+from rest_framework.decorators import api_view, permission_classes
+from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from django.contrib.auth.models import User
 
@@ -137,6 +138,7 @@ class CustomerViewSet(viewsets.ModelViewSet):
 
 
 @api_view(['POST'])
+@permission_classes([AllowAny])
 def register(request):
     username = request.data.get('username')
     password = request.data.get('password')

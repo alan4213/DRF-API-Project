@@ -1,0 +1,58 @@
+[
+  {
+    "model": "product.product",
+    "pk": 1,
+    "fields": {
+      "title": "Classic Red T-Shirt",
+      "price": 100.0,
+      "description": "Premium cotton blend for all-day comfort\r\n\r\nVersatile design for casual or semi-formal wear\r\n\r\nAvailable in slim-fit and regular styles",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400",
+      "priority": 1,
+      "delete_status": 1,
+      "created_at": "2025-07-19T10:37:36.323Z",
+      "updated_at": "2025-07-20T06:06:37.557Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 2,
+    "fields": {
+      "title": "Athletic Performance Shoes",
+      "price": 16.0,
+      "description": "Lightweight mesh upper with responsive cushioning\r\n\r\nEnhanced grip outsole for stability on various surfaces\r\n\r\nBreathable design for extended comfort during workouts",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
+      "priority": 2,
+      "delete_status": 1,
+      "created_at": "2025-07-19T10:38:02.697Z",
+      "updated_at": "2025-07-20T06:07:29.058Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 3,
+    "fields": {
+      "title": "Urban Denim Jeans",
+      "price": 34.0,
+      "description": "Stretch denim for maximum mobility\r\n\r\nStylish distressed details with reinforced stitching\r\n\r\nPerfect for everyday wear with a modern silhouette",
+      "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400",
+      "priority": -1,
+      "delete_status": 1,
+      "created_at": "2025-07-19T10:38:36.124Z",
+      "updated_at": "2025-07-20T06:08:41.248Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 4,
+    "fields": {
+      "title": "Casual Track Pants",
+      "price": 70.0,
+      "description": "Moisture-wicking fabric for active lifestyles\r\n\r\nTapered fit with adjustable drawstring waist\r\n\r\nSide pockets with hidden zipper compartment",
+      "image": "https://images.unsplash.com/photo-1506629905607-d405b7a82b8a?w=400",
+      "priority": 6,
+      "delete_status": 1,
+      "created_at": "2025-07-20T06:09:20.161Z",
+      "updated_at": "2025-07-20T06:10:52.438Z"
+    }
+  }
+]
