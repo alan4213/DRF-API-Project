@@ -121,8 +121,8 @@ dmypy.json
 ehthumbs.db
 Thumbs.db
 
-# Media files
-media/
+# Media files (commented out for deployment)
+# media/
 
 # Static files (if collected)
 staticfiles/
